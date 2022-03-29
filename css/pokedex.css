@@ -1,0 +1,16 @@
+.block_pokemoodle{
+    background: rgb(251,117,63);
+    background: linear-gradient(90deg, rgba(251,117,63,1) 0%, rgba(255,0,52,1) 100%);
+    border-radius: 20px;
+    border-color: rgb(192, 14, 14);
+    border-width:2px;
+    display: flex;
+}
+.block_pokemoodle .whitebox{
+background-color: white;
+width: 100px;
+height: auto;
+}
+.block_pokemoodle .left-side {
+    margin-right: 100px;
+}
