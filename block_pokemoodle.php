@@ -17,7 +17,7 @@ class block_pokemoodle extends block_base {
     function has_config() {return true;}
     //esconde o título do bloco
     public function hide_header ()  { 
-        return false; 
+        return true; 
       }
     //conteudo principal
     public function get_content() {

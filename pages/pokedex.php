@@ -12,18 +12,22 @@
     <link rel="stylesheet" href="/blocks/pokemoodle/css/pokedex.css">
 </head>
 <body>
+    <img src="/blocks/pokemoodle/img/pokemoodle_logo.png" alt="">
+    <img src="/blocks/pokemoodle/img/circle_red.png" alt="">
+    <img src="/blocks/pokemoodle/img/circle_yellow.png" alt="">
+    <img src="/blocks/pokemoodle/img/circle_gray.png" alt="">
     <div class="block_pokemoodle">
         <div class="left-side">
             <div class="whitebox">
                 <img src= "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="">
             </div>
-            <p><b>Bulbasaur</b></p>
         </div>
         <div class="right-side">
-            <div class="content">
-                <p>lvl</p>
-                <p>speed</p>
-                <p>atk</p>
+            <h5 class="type">Veneno</h5>
+            <h5 class="type">Planta</h5>
+            <div class="switch">
+                <button id="btn1"> < </button>
+                <button id="btn2"> > </button>
             </div>
         </div>
     </div>

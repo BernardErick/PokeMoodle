@@ -1,16 +1,92 @@
 .block_pokemoodle{
-    background: rgb(251,117,63);
-    background: linear-gradient(90deg, rgba(251,117,63,1) 0%, rgba(255,0,52,1) 100%);
-    border-radius: 20px;
-    border-color: rgb(192, 14, 14);
-    border-width:2px;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(255,3,76,1) 100%);
+    border-radius: 20px 150px 20px 20px;
+    border-color: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(192, 14, 14) 100%);
+    border-width:10px;
     display: flex;
+    margin-top: 8px;
 }
 .block_pokemoodle .whitebox{
-background-color: white;
-width: 100px;
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(206,206,206,1) 100%);
+width: 150px;
 height: auto;
+border-radius: 10px 10px 10px 10px;
+border-color: rgb(26, 221, 52);
+border-width:200px;
+max-width: 100%;
+max-height: 100%;
+}
+.block_pokemoodle .whitebox img{
+    height: 150px;
+    width: 150px;
 }
 .block_pokemoodle .left-side {
-    margin-right: 100px;
+    margin-right: 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.block_pokemoodle .right-side{
+    padding-left: 40px;
+    padding-right: 15px;
+}
+.block_pokemoodle .right-side .type{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #47f61b;
+    box-shadow: 0px 0px 10px 0px #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width:100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.block_pokemoodle .right-side .switch{
+    display: flex;
+}
+.block_pokemoodle .right-side .switch #btn1{
+	box-shadow: 0px 0px 8px 0px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	padding:4px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    margin-right: 14px;
+}
+.block_pokemoodle .right-side .switch #btn2{
+	box-shadow: 0px 0px 8px 0px #3dc21b;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	padding:4px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.block_pokemoodle .right-side .switch button:hover{
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.block_pokemoodle .right-side .switch button:active{
+	position:relative;
+	top:1px;
 }
